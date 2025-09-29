@@ -10,8 +10,7 @@ A grid-based, predator–prey simulation where five historical **empires** (Brit
 * ⏱️ **Time windows** change activity: e.g., British pause for **tea time (15:00–17:00)**; Spanish pause for **siesta (14:00–16:00)**; Romans pause for **baths (11:00–13:00)**.   
 * 🌤️ **Weather system** with **SUNNY / RAINY / FOGGY / SNOWY / MODERATE** and concrete effects (e.g., Spanish attack radius doubles in sun; British act twice in rain; Amazonians “vanish” in fog; snow can skip moves).   
 * 🎨 **Live Swing UI** shows step, time, weather, and population; Amazonians turn white under fog to visually “disappear.”  
-* 🎵 **Dynamic music** changes with the leading empire and plays a “Win” track when one empire remains.  
-* 🧪 **Deterministic runs** by default (shared RNG seed **1111**) for reproducible behavior. 
+* 🎵 **Dynamic music** changes with the leading empire and plays a “Win” track when one empire remains.
 
 ---
 

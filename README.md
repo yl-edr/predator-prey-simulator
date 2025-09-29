@@ -1,4 +1,4 @@
-# 🛡️ Empire Ecosystem Simulator (Java)
+# 🛡️ Empire Ecosystem Simulator
 
 A grid-based, predator–prey simulation where five historical **empires** (British, Spanish, Roman, Persian, Amazonian) and **Civilians** interact on a 2D field with **time-of-day** and **dynamic weather** affecting behavior. It features a live **Swing** UI with population stats and an optional **soundtrack** that changes as different empires dominate. 
 

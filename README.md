@@ -70,8 +70,8 @@ A grid-based, predator–prey simulation where five historical **empires** (Brit
 1. **Clone the repository**
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/yl-edr/predator-prey-simulator.git
+cd predator-prey-simulator
 ```
 
 2. **(Optional) Soundtrack files**

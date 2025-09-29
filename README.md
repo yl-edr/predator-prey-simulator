@@ -22,7 +22,10 @@ A grid-based, predator–prey simulation where five historical **empires** (Brit
    * **Each entity**: Empires may **recruit** civilians, **reproduce**, **hunt** enemies, or **move**; Civilians **move/reproduce**. Snow may cause an entity to **skip** moving.   
    * **Time** advances and the **UI** refreshes.
 3. **Special rules.**
-   * **British**: act twice in **rain**. **Spanish**: attack radius **2** in **sun**. **Amazonians**: “invisible” in **fog**. **Snow**: 50% chance to stay put (see report).    
+   * **British**: act twice in **rain**.
+   * **Spanish**: attack radius **2** in **sun**.
+   * **Amazonians**: “invisible” in **fog**.
+   * **Snow**: 50% chance to stay put.    
 5. **End condition.** When only one empire remains (field no longer viable), music switches to **Win**. 
 
 ---

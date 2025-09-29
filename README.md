@@ -19,14 +19,12 @@ A grid-based, predator–prey simulation where five historical **empires** (Brit
 
 1. **Init & Populate.** `Simulator` builds the field (default **120×80**) and randomly populates it with soldiers and civilians using per-type creation probabilities.  
 2. **Step Loop.** Each step updates:
-
    * **Weather** (changes every **15** steps).
    * **Each entity**: Empires may **recruit** civilians, **reproduce**, **hunt** enemies, or **move**; Civilians **move/reproduce**. Snow may cause an entity to **skip** moving.   
-   * **Time** advances and the **UI** refreshes.  
+   * **Time** advances and the **UI** refreshes.
 3. **Special rules.**
-
-   * **British**: act twice in **rain**. **Spanish**: attack radius **2** in **sun**. **Amazonians**: “invisible” in **fog**. **Snow**: 50% chance to stay put. (See report for rule rationale.)    
-4. **End condition.** When only one empire remains (field no longer viable), music switches to **Win**. 
+   * **British**: act twice in **rain**. **Spanish**: attack radius **2** in **sun**. **Amazonians**: “invisible” in **fog**. **Snow**: 50% chance to stay put (see report).    
+5. **End condition.** When only one empire remains (field no longer viable), music switches to **Win**. 
 
 ---
 
@@ -51,6 +49,7 @@ A grid-based, predator–prey simulation where five historical **empires** (Brit
 ├── Spanish.java          # Spanish soldiers (predator; sunny buff; siesta)
 ├── Time.java             # Sim time with hour/minute and increment
 ├── Weather.java          # Weather enum + change logic
+├── ressources/           # .wav audio tracks used by MusicPlayer
 └── assignment_3_report.pdf  # Design & rules overview (optional reading)
 ```
 
@@ -74,8 +73,10 @@ git clone https://github.com/yl-edr/predator-prey-simulator.git
 cd predator-prey-simulator
 ```
 
-2. **(Optional) Soundtrack files**
-   If you want music, add `.wav` files to your classpath and map them inside `MusicPlayer` (empire → filename). The simulator will call `updateMusic()` each step and switch tracks when the leading empire changes or when the game is won. 
+2. **Soundtrack files (already bundled)**
+   * The .wav tracks live in ./ressources/.
+   * Ensure ressources/ is on the runtime classpath so MusicPlayer can load them.
+   * If you change track names, update the filename mapping inside MusicPlayer.java.
 
 ---
 

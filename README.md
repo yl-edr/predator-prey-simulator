@@ -99,14 +99,7 @@ Adjust initial spawn probabilities (e.g., `BRITISH_CREATION_PROBABILITY`, `AMAZO
 
 ---
 
-## 📝 Notes on Rules & Design
-
-* **Activity windows & weather effects** are summarized in the included short report. It also documents the **Civilians** system and the **music** challenge task.  
-* **Reproduction & mating** logic lives in `Person` and is specialized per empire/civilian. 
-
----
-
 ## 📜 License
 
-This project is licensed under the MIT License — feel free to use and modify it. 
+This project is licensed under the MIT License — feel free to use and modify it. \
 ***Authors: Rom Steinberg and Yaal Edrey***
